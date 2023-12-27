@@ -6,26 +6,8 @@
 
 {% assign dates = '' %}
 {% for post in site.posts %}
-  {% assign name = "" %}
-  {% assign m = post.date | date: filter %}
-  {{ page.date | date: "%-d" }}
-  {% case m %}
-    {% when '1' %}{% assign name = "Január " %}
-    {% when '2' %}{% assign name = "Február " %}
-    {% when '3' %}{% assign name = "Március " %}
-    {% when '4' %}{% assign name = "Április " %}
-    {% when '5' %}{% assign name = "Május " %}
-    {% when '6' %}{% assign name = "Június " %}
-    {% when '7' %}{% assign name = "Július " %}
-    {% when '8' %}{% assign name = "Augusztus " %}
-    {% when '9' %}{% assign name = "Szeptember " %}
-    {% when '10' %}{% assign name = "Október " %}
-    {% when '11' %}{% assign name = "November " %}
-    {% when '12' %}{% assign name = "December " %}
-  {% endcase %}
-  {% assign m = m | post.date | date: "%-d" %}
-  {% assign m = m | post.date | date: "%Y" %}
-  {% assign dates = dates | append: split_mark  | append: m %}
+  {% assign name = post.date | date: filter %}
+  {% assign dates = dates | append: split_mark  | append: name %}
 {% endfor %}
 
 {% assign return = dates
