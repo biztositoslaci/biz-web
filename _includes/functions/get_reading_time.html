@@ -28,9 +28,6 @@
 
 {% if hours > 0 %}
   {% assign unit = "óra" %}
-  {% if hours > 1 %}
-    {% assign unit = unit | append: "mp" %}
-  {% endif %}
   {% assign return = return
     | append: " "
     | append: hours
@@ -38,10 +35,7 @@
     | append: unit %}
 {% endif %}
 
-{% assign unit = "p" %}
-{% if mins > 1 %}
-  {% assign unit = unit | append: "mp" %}
-{% endif %}
+{% assign unit = "perc" %}
 {% assign return = return
   | append: " "
   | append: mins
