@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+heading: 'Biztosításod legyen érthető!'
+subheading: 'Tudnivalók egyszerűen'
+title: Főoldal
 banner:
   video: https://github.com/biztositoslaci/biztositoslaci.github.io/raw/main/splash.mp4
   loop: true
