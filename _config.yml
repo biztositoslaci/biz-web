@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Biztos vagy?
+title: BiztosJó
 email: nagy.laszlo@biztosjo.hu
 description: >- # this means to ignore newlines until "baseurl:"
   Biztsításról egyszerűen, közérthetően. Folyton frissülő tartalmakkal.
