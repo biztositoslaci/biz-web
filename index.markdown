@@ -4,7 +4,7 @@
 
 layout: home
 heading: 'Biztosításod legyen érthető!'
-subheading: 'Tudnivalók egyszerűen'
+subheading: '„A biztosítást mindig az esemény előtt egy nappal kell megkötni, csak nem tudjuk, melyik az a nap!”'
 title: Főoldal
 banner:
   video: https://github.com/biztositoslaci/biztositoslaci.github.io/raw/main/splash.mp4
