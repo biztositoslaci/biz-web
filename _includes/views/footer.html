@@ -12,10 +12,21 @@
             | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
         -%}
       <div>{{ copyright }}</div>
-      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
-      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
-      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
-      <div class="footer-col rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></div>
+      <div>A weboldal alapja a <a title="A Jekyll egy egyszerű, blog orientált statikus oldalgenerátor." href="https://jekyllrb.com/">Jekyll</a> keretrendszer és a <a title="Yat, yet another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a> sablon.</div>
+      <div class="footer-col rss-subscribe">Iratkozz fel <a href="{{ "/feed.xml" | relative_url }}">RSS időfolyamomra!</a></div>
+      <img src="/partnerlogo.png" alt="Union Partner" >
     </div>
   </div>
+  <style>
+    @media screen and (max-width: 600px) {
+      .logo{
+        display: block;
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .logo{
+        float: right;
+      }
+    }
+  </style>
 </footer>

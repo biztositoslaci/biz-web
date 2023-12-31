@@ -30,6 +30,15 @@ github_username:  biztositoslaci
 
 remote_theme: "jeffreytse/jekyll-theme-yat"
 
+copyright: "BiztosJó (c){currentYear} Nagy László"
+
+header_pages:
+  - index.html
+  - about.markdown
+  - categories.html
+  - tags.html
+  - archives.html
+
 # Build settings
 plugins:
   - jekyll-feed
