@@ -4,9 +4,9 @@ title: Rólam
 permalink: /about/
 ---
 
-Azért készítettem ezt az oldalt, hogy segítsek abban, hogy a biztosítások világa ne legyen rejtély számodra, és hogy megtaláld a számodra legmegfelelőbb megoldásokat.
-
 **Nagy László** vagyok, az **Union Biztosító** függő ügynök. Célom az emberek segítése abban, hogy megértsék és megtalálják a számukra legjobb biztosítási lehetőségeket. Szakértelmem segítségével szeretném, hogy az oldal olvasói magabiztosan választhassanak a különféle biztosítási opciók között.
+
+Azért készítettem ezt az oldalt, hogy segítsek abban, hogy a biztosítások világa ne legyen rejtély számodra, és hogy megtaláld a számodra legmegfelelőbb megoldásokat.
 
 ## Miért érdemes itt lenned?
 
