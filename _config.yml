@@ -30,6 +30,8 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 
 copyright: "BiztosJó (c){currentYear} Nagy László"
 favicon: "/favicon.png"
+google_analytics: G-L4KF5MMJE7
+enableDNT: "true"
 
 header_pages:
   - index.html
