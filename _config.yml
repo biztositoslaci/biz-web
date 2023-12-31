@@ -29,6 +29,7 @@ github_username:  biztositoslaci
 remote_theme: "jeffreytse/jekyll-theme-yat"
 
 copyright: "BiztosJó (c){currentYear} Nagy László"
+favicon: "/favicon.png"
 
 header_pages:
   - index.html
