@@ -1,31 +1,50 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
     <div class="site-footer-inner">
+      <div class="footer-text">
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
-            | replace: '{currentYear}', currentYear
-            | replace: '{author}', site.author
-            | replace: '(c)', '&copy;'
-            | replace: '(p)', '℗'
-            | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
+        | replace: '{currentYear}', currentYear
+        | replace: '{author}', site.author
+        | replace: '(c)', '&copy;'
+        | replace: '(p)', '℗'
+        | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
         -%}
-      <div>{{ copyright }}</div>
-      <div>A weboldal alapja a <a title="A Jekyll egy egyszerű, blog orientált statikus oldalgenerátor." href="https://jekyllrb.com/">Jekyll</a> keretrendszer és a <a title="Yat, yet another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a> sablon.</div>
-      <div class="footer-col rss-subscribe">Iratkozz fel <a href="{{ "/feed.xml" | relative_url }}">RSS időfolyamomra!</a></div>
-      <img src="/partnerlogo.png" alt="Union Partner" >
+        <div>{{ copyright }}</div>
+        <div>A weboldal alapja a <a title="A Jekyll egy egyszerű, blog orientált statikus oldalgenerátor."
+            href="https://jekyllrb.com/">Jekyll</a> keretrendszer és a <a title="Yat, yet another theme."
+            href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a> sablon.</div>
+        <div class="footer-col rss-subscribe">Iratkozz fel <a href="{{ " /feed.xml" | relative_url }}">RSS
+            időfolyamomra!</a></div>
+      </div>
+      <img src="/partnerlogo.png" alt="Union Partner" class="logo">
     </div>
   </div>
   <style>
     @media screen and (max-width: 600px) {
-      .logo{
-        display: block;
+      .logo {
+        margin: auto;
+        margin-top: 30px;
+        float: none;
+      }
+
+      .footer-text {
+        text-align: center;
+        float: none;
       }
     }
+
     @media screen and (min-width: 600px) {
-      .logo{
+      .logo {
         float: right;
+        margin: 0;
+      }
+
+      .footer-text {
+        text-align: left;
+        float: left;
       }
     }
   </style>
